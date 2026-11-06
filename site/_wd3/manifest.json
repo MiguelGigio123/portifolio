@@ -1,0 +1,372 @@
+{
+ "entryUrl": "https://exoflora-luxury.aura.build/",
+ "capturedAt": "2026-11-05T23:15:53+00:00",
+ "indexHtml": {
+  "kind": "snapshot",
+  "description": "DOM renderizado (depois do JS), sem os scripts do site; CSS gerado em runtime em site/_runtime/style-*.css; <canvas> ficam vazios (o desenho só existe no site vivo)",
+  "runtimeStyles": 3
+ },
+ "files": [
+  {
+   "url": "https://exoflora-luxury.aura.build/favicon.ico",
+   "file": "site/exoflora-luxury.aura.build/favicon.ico",
+   "type": "image/vnd.microsoft.icon",
+   "resourceType": "other",
+   "size": 696,
+   "status": 200,
+   "party": "first",
+   "passes": [
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://exoflora-luxury.aura.build/",
+   "file": "site/exoflora-luxury.aura.build/index.html",
+   "type": "text/html",
+   "resourceType": "document",
+   "size": 92847,
+   "status": 200,
+   "party": "first",
+   "passes": [
+    "desktop",
+    "mobile"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=atom-bold-duotone",
+   "file": "site/api.iconify.design/solar__q12e6faf3.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 776,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=moon-stars-bold-duotone",
+   "file": "site/api.iconify.design/solar__q20870309.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 1523,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=flask-bold-duotone",
+   "file": "site/api.iconify.design/solar__q35282b3d.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 126,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=hamburger-menu-linear",
+   "file": "site/api.iconify.design/solar__q40147ec6.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 290,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=leaf-bold-duotone",
+   "file": "site/api.iconify.design/solar__q4cf0a34e.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 1104,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=add-circle-linear%2Chand-stars-bold-duotone",
+   "file": "site/api.iconify.design/solar__q93bba591.json",
+   "type": "application/json",
+   "resourceType": "fetch",
+   "size": 4538,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://cdn.tailwindcss.com/3.4.17",
+   "file": "site/cdn.tailwindcss.com/3.4.17.js",
+   "type": "text/javascript",
+   "resourceType": "script",
+   "size": 407279,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "library": {
+    "name": "tailwindcss (Play CDN)",
+    "version": "3.4.17"
+   },
+   "role": "library"
+  },
+  {
+   "url": "https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js",
+   "file": "site/code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js",
+   "type": "application/javascript",
+   "resourceType": "script",
+   "size": 23739,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "library": {
+    "name": "iconify",
+    "version": "2.1.0"
+   },
+   "role": "library"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&display=swap",
+   "file": "site/fonts.googleapis.com/css2__q1f7e978b.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 8310,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap",
+   "file": "site/fonts.googleapis.com/css2__q41002772.css",
+   "type": "text/css",
+   "resourceType": "stylesheet",
+   "size": 23379,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "role": "third-party"
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+   "file": "site/fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+   "type": "font/woff2",
+   "resourceType": "font",
+   "size": 48432,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+   "file": "site/fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+   "type": "font/woff2",
+   "resourceType": "font",
+   "size": 38888,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/2d9dd08c-a7ab-4f6d-bf07-cf35fc9ebe87_3840w.png",
+   "file": "site/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/2d9dd08c-a7ab-4f6d-bf07-cf35fc9ebe87_3840w.png",
+   "type": "image/png",
+   "resourceType": "image",
+   "size": 3310862,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/846dda3d-7e69-4e4b-8efc-60a19dc7fd46_3840w.png",
+   "file": "site/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/846dda3d-7e69-4e4b-8efc-60a19dc7fd46_3840w.png",
+   "type": "image/png",
+   "resourceType": "image",
+   "size": 3288390,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/generated-videos/5bd6211c-bd4c-467c-b442-4312cac4712c/1781635124855-8e18bb8c-2d24-4662-8e8a-f58b1ddd1f16.mp4",
+   "file": "site/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/generated-videos/5bd6211c-bd4c-467c-b442-4312cac4712c/1781635124855-8e18bb8c-2d24-4662-8e8a-f58b1ddd1f16.mp4",
+   "type": "video/mp4",
+   "resourceType": "media",
+   "size": 7384689,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1400&q=90",
+   "file": "site/images.unsplash.com/photo-1468327768560-75b778cbb551__qa3878f6e.avif",
+   "type": "image/avif",
+   "resourceType": "image",
+   "size": 103352,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=2200&q=90",
+   "file": "site/images.unsplash.com/photo-1490750967868-88aa4486c946__q3288f875.avif",
+   "type": "image/avif",
+   "resourceType": "image",
+   "size": 179534,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1400&q=90",
+   "file": "site/images.unsplash.com/photo-1501004318641-b39e6451bec6__qa3878f6e.avif",
+   "type": "image/avif",
+   "resourceType": "image",
+   "size": 38820,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=1400&q=90",
+   "file": "site/images.unsplash.com/photo-1519378058457-4c29a0a2efac__qa3878f6e.avif",
+   "type": "image/avif",
+   "resourceType": "image",
+   "size": 208977,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=1400&q=90",
+   "file": "site/images.unsplash.com/photo-1520763185298-1b434c919102__qa3878f6e.avif",
+   "type": "image/avif",
+   "resourceType": "image",
+   "size": 30801,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=1400&q=90",
+   "file": "site/images.unsplash.com/photo-1526047932273-341f2a7631f9__qa3878f6e.avif",
+   "type": "image/avif",
+   "resourceType": "image",
+   "size": 103100,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=1800&q=90",
+   "file": "site/images.unsplash.com/photo-1526047932273-341f2a7631f9__qbe51dd41.avif",
+   "type": "image/avif",
+   "resourceType": "image",
+   "size": 137577,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "desktop",
+    "mobile"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1400&q=90",
+   "file": "site/images.unsplash.com/photo-1608571423902-eed4a5ad8108__qa3878f6e.avif",
+   "type": "image/avif",
+   "resourceType": "image",
+   "size": 55157,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1400&q=90",
+   "file": "site/images.unsplash.com/photo-1615634260167-c8cdede054de__qa3878f6e.avif",
+   "type": "image/avif",
+   "resourceType": "image",
+   "size": 70240,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=2200&q=90",
+   "file": "site/images.unsplash.com/photo-1616486338812-3dadae4b4ace__q3288f875.avif",
+   "type": "image/avif",
+   "resourceType": "image",
+   "size": 208454,
+   "status": 200,
+   "party": "third",
+   "passes": [
+    "mobile",
+    "desktop"
+   ]
+  }
+ ]
+}

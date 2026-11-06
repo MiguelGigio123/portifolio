@@ -1,0 +1,676 @@
+{
+ "version": 1,
+ "tool": "wd3 0.1.0",
+ "captureId": "exoflora-luxury.aura.build-620ca5fe",
+ "capturedAt": "2026-11-05T23:15:53+00:00",
+ "entry": {
+  "url": "https://exoflora-luxury.aura.build/",
+  "path": "/",
+  "search": "",
+  "file": "site/exoflora-luxury.aura.build/index.html",
+  "contentType": "text/html; charset=utf-8"
+ },
+ "blocked": [
+  "^https?://([^/?#]+\\.)?(google\\-analytics\\.com|analytics\\.google\\.com|googletagmanager\\.com|googleadservices\\.com|doubleclick\\.net|googlesyndication\\.com|googleoptimize\\.com|connect\\.facebook\\.net|bat\\.bing\\.com|snap\\.licdn\\.com|px\\.ads\\.linkedin\\.com|analytics\\.tiktok\\.com|ct\\.pinterest\\.com|static\\.ads\\-twitter\\.com|analytics\\.twitter\\.com|tr\\.snapchat\\.com|sc\\-static\\.net|mc\\.yandex\\.ru|hotjar\\.com|hotjar\\.io|clarity\\.ms|cdn\\.segment\\.com|api\\.segment\\.io|cdn\\.mxpnl\\.com|api\\-js\\.mixpanel\\.com|api\\.mixpanel\\.com|api\\.amplitude\\.com|api2\\.amplitude\\.com|api\\-secure\\.amplitude\\.com|api\\-sr\\.amplitude\\.com|sr\\-client\\-cfg\\.amplitude\\.com|plausible\\.io|cloud\\.umami\\.is|analytics\\.umami\\.is|static\\.cloudflareinsights\\.com|cloudflareinsights\\.com|vitals\\.vercel\\-insights\\.com|browser\\-intake\\-datadoghq\\.com|browser\\-intake\\-datadoghq\\.eu|js\\-agent\\.newrelic\\.com|bam\\.nr\\-data\\.net|bam\\-cell\\.nr\\-data\\.net|fullstory\\.com|script\\.crazyegg\\.com|mouseflow\\.com|smartlook\\.com|heapanalytics\\.com|i\\.posthog\\.com|stats\\.wp\\.com|pixel\\.wp\\.com|promotekit\\.com|ingest\\.sentry\\.io|ingest\\.us\\.sentry\\.io|ingest\\.de\\.sentry\\.io|widget\\.intercom\\.io|js\\.intercomcdn\\.com|api\\-iam\\.intercom\\.io|js\\.hs\\-scripts\\.com|js\\.hs\\-analytics\\.net|js\\.hs\\-banner\\.com|js\\.hscollectedforms\\.net|js\\.usemessages\\.com|track\\.hubspot\\.com|client\\.crisp\\.chat|embed\\.tawk\\.to|js\\.driftt\\.com|static\\.zdassets\\.com|ekr\\.zdassets\\.com|cdn\\.cookielaw\\.org|geolocation\\.onetrust\\.com|consent\\.cookiebot\\.com|consentcdn\\.cookiebot\\.com|app\\.usercentrics\\.eu|api\\.usercentrics\\.eu|cdn\\.iubenda\\.com|cmp\\.osano\\.com|cdn\\.termly\\.io)(:\\d+)?([/?#]|$)",
+  "/rpc/increment_shared_code_views",
+  "^https?://(umami|analytics|stats|plausible)\\.[^/]+/(api/send|api/collect|api/event|script\\.js)",
+  "/g/c(ollect)?\\?v=2&",
+  "sentry\\.io/api/\\d+/(envelope|store)",
+  "/api/meta-capi",
+  "^https?://(leadtracker|tracking|track|events?|collect)\\.[^/]+/",
+  "^https?://a\\.vturb\\.com/",
+  "facebook\\.com/tr[/?]",
+  "/_vercel/(speed-)?insights/",
+  "/cdn-cgi/rum",
+  "/cdn-cgi/challenge-platform/",
+  "google\\.com/(pagead|ads)/"
+ ],
+ "volatileParams": [
+  "v",
+  "_rsc",
+  "dpl",
+  "_",
+  "t",
+  "ts",
+  "timestamp",
+  "cb",
+  "cachebust",
+  "cacheBust",
+  "nocache",
+  "rnd",
+  "rand",
+  "random",
+  "_t"
+ ],
+ "entries": [
+  {
+   "url": "https://exoflora-luxury.aura.build/",
+   "method": "GET",
+   "status": 200,
+   "contentType": "text/html; charset=utf-8",
+   "headers": {
+    "content-type": "text/html; charset=utf-8"
+   },
+   "resourceType": "document",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "file": "site/exoflora-luxury.aura.build/index.html",
+   "size": 92847
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=1800&q=90",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/avif",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/avif",
+    "timing-allow-origin": "*",
+    "x-imgix-id": "8a5a7131e617b8bd71ac5d96e7db166ca918b591"
+   },
+   "resourceType": "image",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "file": "site/images.unsplash.com/photo-1526047932273-341f2a7631f9__qbe51dd41.avif",
+   "size": 137577,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.tailwindcss.com/",
+   "method": "GET",
+   "status": 302,
+   "contentType": "",
+   "headers": {
+    "location": "/3.4.17"
+   },
+   "resourceType": "script",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "size": 0,
+   "redirect": "https://cdn.tailwindcss.com/3.4.17",
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap",
+   "method": "GET",
+   "status": 200,
+   "contentType": "text/css; charset=utf-8",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "text/css; charset=utf-8",
+    "timing-allow-origin": "*"
+   },
+   "resourceType": "stylesheet",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/fonts.googleapis.com/css2__q41002772.css",
+   "size": 23379,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&display=swap",
+   "method": "GET",
+   "status": 200,
+   "contentType": "text/css; charset=utf-8",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "text/css; charset=utf-8",
+    "timing-allow-origin": "*"
+   },
+   "resourceType": "stylesheet",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/fonts.googleapis.com/css2__q1f7e978b.css",
+   "size": 8310,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js",
+   "method": "GET",
+   "status": 200,
+   "contentType": "application/javascript; charset=utf-8",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "application/javascript; charset=utf-8",
+    "x-cache-hits": "0",
+    "x-fastly-request-id": "e897a158dc93c014ce5f7a7cd6796828f5effda8",
+    "x-github-edge-region": "iad",
+    "x-github-request-id": "54E2:3C333D:99781D:A4FBF9:6AE9FB7E",
+    "x-origin-cache": "HIT",
+    "x-proxy-cache": "HIT"
+   },
+   "resourceType": "script",
+   "passes": [
+    "desktop",
+    "mobile"
+   ],
+   "file": "site/code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js",
+   "size": 23739,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://cdn.tailwindcss.com/3.4.17",
+   "method": "GET",
+   "status": 200,
+   "contentType": "text/javascript",
+   "headers": {
+    "content-type": "text/javascript"
+   },
+   "resourceType": "script",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/cdn.tailwindcss.com/3.4.17.js",
+   "size": 407279,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/846dda3d-7e69-4e4b-8efc-60a19dc7fd46_3840w.png",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/png",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/png",
+    "priority": "u=2,i",
+    "sb-gateway-mode": "direct",
+    "sb-gateway-version": "1",
+    "sb-project-ref": "hoirqrkdgbmvpwutwuwj",
+    "sb-request-id": "01a1adff-7943-7e08-8f16-067109d15ae5",
+    "x-robots-tag": "none",
+    "x-smart-cdn": "true"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/846dda3d-7e69-4e4b-8efc-60a19dc7fd46_3840w.png",
+   "size": 3288390,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+   "method": "GET",
+   "status": 200,
+   "contentType": "font/woff2",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "font/woff2",
+    "timing-allow-origin": "*"
+   },
+   "resourceType": "font",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+   "size": 48432,
+   "modes": [
+    "cors"
+   ]
+  },
+  {
+   "url": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+   "method": "GET",
+   "status": 200,
+   "contentType": "font/woff2",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "font/woff2",
+    "timing-allow-origin": "*"
+   },
+   "resourceType": "font",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2",
+   "size": 38888,
+   "modes": [
+    "cors"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=2200&q=90",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/avif",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/avif",
+    "timing-allow-origin": "*",
+    "x-imgix-id": "4a46766ee154f9832fd837af90d5f189a800e7cd"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/images.unsplash.com/photo-1490750967868-88aa4486c946__q3288f875.avif",
+   "size": 179534,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1400&q=90",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/avif",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/avif",
+    "timing-allow-origin": "*",
+    "x-imgix-id": "be32a436f1a506901a4d8f219775e0f0a6be6ba1"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/images.unsplash.com/photo-1615634260167-c8cdede054de__qa3878f6e.avif",
+   "size": 70240,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=2200&q=90",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/avif",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/avif",
+    "timing-allow-origin": "*",
+    "x-imgix-id": "a586fa20d1f995b14cc74bd015f5ac7054a4e0e6"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/images.unsplash.com/photo-1616486338812-3dadae4b4ace__q3288f875.avif",
+   "size": 208454,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1400&q=90",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/avif",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/avif",
+    "timing-allow-origin": "*",
+    "x-imgix-id": "7f31829804c6c7b7a96d30c0e726ff1ecb917c16"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/images.unsplash.com/photo-1608571423902-eed4a5ad8108__qa3878f6e.avif",
+   "size": 55157,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=1400&q=90",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/avif",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/avif",
+    "timing-allow-origin": "*",
+    "x-imgix-id": "c5d61b7b7f8dc4063c339d0fc499d861d8131dfc"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/images.unsplash.com/photo-1520763185298-1b434c919102__qa3878f6e.avif",
+   "size": 30801,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=1400&q=90",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/avif",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/avif",
+    "timing-allow-origin": "*",
+    "x-imgix-id": "f88f47c3af216e49cf17b40ffb0a9d1855553605"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/images.unsplash.com/photo-1526047932273-341f2a7631f9__qa3878f6e.avif",
+   "size": 103100,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1400&q=90",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/avif",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/avif",
+    "timing-allow-origin": "*",
+    "x-imgix-id": "847e49f18dafece4d17fb96764a0629c055b48db"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/images.unsplash.com/photo-1501004318641-b39e6451bec6__qa3878f6e.avif",
+   "size": 38820,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1400&q=90",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/avif",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/avif",
+    "timing-allow-origin": "*",
+    "x-imgix-id": "b66a16d78905f126f1e61d6fa325055445f93598"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/images.unsplash.com/photo-1468327768560-75b778cbb551__qa3878f6e.avif",
+   "size": 103352,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?auto=format&fit=crop&w=1400&q=90",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/avif",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/avif",
+    "timing-allow-origin": "*",
+    "x-imgix-id": "7f9c1ae10e9949e675cd1b260cf0b3855743d6d6"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/images.unsplash.com/photo-1519378058457-4c29a0a2efac__qa3878f6e.avif",
+   "size": 208977,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=leaf-bold-duotone",
+   "method": "GET",
+   "status": 200,
+   "contentType": "application/json; charset=utf-8",
+   "headers": {
+    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Accept-Encoding",
+    "access-control-allow-methods": "GET, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "86400",
+    "content-type": "application/json; charset=utf-8"
+   },
+   "resourceType": "fetch",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/api.iconify.design/solar__q4cf0a34e.json",
+   "size": 1104,
+   "modes": [
+    "cors"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=moon-stars-bold-duotone",
+   "method": "GET",
+   "status": 200,
+   "contentType": "application/json; charset=utf-8",
+   "headers": {
+    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Accept-Encoding",
+    "access-control-allow-methods": "GET, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "86400",
+    "content-type": "application/json; charset=utf-8"
+   },
+   "resourceType": "fetch",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/api.iconify.design/solar__q20870309.json",
+   "size": 1523,
+   "modes": [
+    "cors"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=hamburger-menu-linear",
+   "method": "GET",
+   "status": 200,
+   "contentType": "application/json; charset=utf-8",
+   "headers": {
+    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Accept-Encoding",
+    "access-control-allow-methods": "GET, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "86400",
+    "content-type": "application/json; charset=utf-8"
+   },
+   "resourceType": "fetch",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/api.iconify.design/solar__q40147ec6.json",
+   "size": 290,
+   "modes": [
+    "cors"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=atom-bold-duotone",
+   "method": "GET",
+   "status": 200,
+   "contentType": "application/json; charset=utf-8",
+   "headers": {
+    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Accept-Encoding",
+    "access-control-allow-methods": "GET, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "86400",
+    "content-type": "application/json; charset=utf-8"
+   },
+   "resourceType": "fetch",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/api.iconify.design/solar__q12e6faf3.json",
+   "size": 776,
+   "modes": [
+    "cors"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=flask-bold-duotone",
+   "method": "GET",
+   "status": 200,
+   "contentType": "application/json; charset=utf-8",
+   "headers": {
+    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Accept-Encoding",
+    "access-control-allow-methods": "GET, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "86400",
+    "content-type": "application/json; charset=utf-8"
+   },
+   "resourceType": "fetch",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/api.iconify.design/solar__q35282b3d.json",
+   "size": 126,
+   "modes": [
+    "cors"
+   ]
+  },
+  {
+   "url": "https://api.iconify.design/solar.json?icons=add-circle-linear%2Chand-stars-bold-duotone",
+   "method": "GET",
+   "status": 200,
+   "contentType": "application/json; charset=utf-8",
+   "headers": {
+    "access-control-allow-headers": "Origin, X-Requested-With, Content-Type, Accept, Accept-Encoding",
+    "access-control-allow-methods": "GET, OPTIONS",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "86400",
+    "content-type": "application/json; charset=utf-8"
+   },
+   "resourceType": "fetch",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/api.iconify.design/solar__q93bba591.json",
+   "size": 4538,
+   "modes": [
+    "cors"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/2d9dd08c-a7ab-4f6d-bf07-cf35fc9ebe87_3840w.png",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/png",
+   "headers": {
+    "access-control-allow-origin": "*",
+    "content-type": "image/png",
+    "priority": "u=1,i",
+    "sb-gateway-mode": "direct",
+    "sb-gateway-version": "1",
+    "sb-project-ref": "hoirqrkdgbmvpwutwuwj",
+    "sb-request-id": "01a1adff-7a7c-7d6c-8357-98abce1d7c4c",
+    "x-robots-tag": "none",
+    "x-smart-cdn": "true"
+   },
+   "resourceType": "image",
+   "passes": [
+    "mobile",
+    "desktop"
+   ],
+   "file": "site/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/2d9dd08c-a7ab-4f6d-bf07-cf35fc9ebe87_3840w.png",
+   "size": 3310862,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/generated-videos/5bd6211c-bd4c-467c-b442-4312cac4712c/1781635124855-8e18bb8c-2d24-4662-8e8a-f58b1ddd1f16.mp4",
+   "method": "GET",
+   "status": 200,
+   "contentType": "video/mp4",
+   "headers": {
+    "content-type": "video/mp4",
+    "access-control-allow-origin": "*",
+    "sb-gateway-mode": "direct",
+    "sb-gateway-version": "1",
+    "sb-project-ref": "hoirqrkdgbmvpwutwuwj",
+    "sb-request-id": "01a1ae00-0a72-76b1-a501-22d52d9ee999",
+    "x-robots-tag": "none",
+    "x-smart-cdn": "true"
+   },
+   "resourceType": "media",
+   "passes": [
+    "mobile"
+   ],
+   "file": "site/hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/generated-videos/5bd6211c-bd4c-467c-b442-4312cac4712c/1781635124855-8e18bb8c-2d24-4662-8e8a-f58b1ddd1f16.mp4",
+   "size": 7384689,
+   "modes": [
+    "no-cors"
+   ]
+  },
+  {
+   "url": "https://exoflora-luxury.aura.build/favicon.ico",
+   "method": "GET",
+   "status": 200,
+   "contentType": "image/vnd.microsoft.icon",
+   "headers": {
+    "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+    "content-type": "image/vnd.microsoft.icon",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-nf-request-id": "01M6Q002K2W1B3FK1XTB3V0MZ5"
+   },
+   "resourceType": "other",
+   "passes": [
+    "desktop"
+   ],
+   "file": "site/exoflora-luxury.aura.build/favicon.ico",
+   "size": 696
+  }
+ ],
+ "adapter": {
+  "name": "aura-html",
+  "notes": [
+   "site extraído do iframe srcdoc; 3 scripts do Aura removidos"
+  ]
+ },
+ "videos": {
+  "posters": {},
+  "onlineHosts": []
+ }
+}
